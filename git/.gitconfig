@@ -1,0 +1,13 @@
+[user]
+	name = Smit Patel
+	email = patelsmit090305@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	editor = vim
+[pull]
+	rebase = false
+[fetch]
+	prune = true
+[rerere]
+	enabled = true

@@ -1,0 +1,32 @@
+# ----- Appearance -----
+background = #000000
+background-opacity = 0.85
+background-blur = 16
+
+# Padding
+window-padding-x = 10
+window-padding-y = 10
+
+# ----- Font -----
+font-size = 16
+font-thicken = true
+font-thicken-strength = 1
+adjust-cell-height = 1
+
+# If using a Nerd Font
+# font-family = JetBrainsMono Nerd Font
+
+# ----- Cursor -----
+cursor-style = block
+cursor-style-blink = true
+
+# ----- Scrolling -----
+scrollback-limit = 100000
+
+# ----- Shell -----
+shell-integration = detect
+
+# ----- tmux -----
+keybind = cmd+s=text:\x01\x73
+keybind = cmd+b=text:\x01\x7a
+
