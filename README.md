@@ -1,4 +1,4 @@
-# Dotfiles
+# dotfiles
 
 Personal Linux development configuration.
 
@@ -13,16 +13,12 @@ Personal Linux development configuration.
 - VS Code
 - Cursor
 
-## Structure
+## Package Lists
 
-```
-bash/
-git/
-ghostty/
-tmux/
-vim/
-vscode/
-cursor/
-```
+- APT
+- Snap
+- pipx
 
-Each directory mirrors the application's configuration layout to make restoring configurations straightforward on a new machine.
+## Notes
+
+This repository mirrors the original configuration layout under `~/.config` and the home directory for easy restoration on a new Linux installation.

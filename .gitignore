@@ -5,13 +5,22 @@
 .DS_Store
 Thumbs.db
 
-# Secrets
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+
+# Certificates / Keys
 *.pem
 *.key
 *.crt
 *.p12
-.env
-.env.*
 
-# Logs
-*.log
+# Swap files
+*.swp
+*.swo
+
+# Backups
+*~
