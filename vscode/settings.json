@@ -1,0 +1,151 @@
+{
+  // Font and Zoom Settings
+  "editor.fontSize": 18,
+  "editor.fontFamily": "Consolas, 'Courier New', monospace,Source Code Pro",
+
+  // Editor Formatting Settings
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[python]": {
+    "editor.formatOnType": true,
+  },
+
+  "[snippets]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+
+  // Import and File Movement Settings
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+
+  // Explorer Settings
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // Terminal Settings
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.defaultProfile.osx": "",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+  // Git Settings
+  "git.enableStatusBarSync": false,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "workbench.editorAssociations": {
+    "*.exe": "default",
+  },
+
+  // Emmet Settings
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+  },
+
+  // Minimap and Diff Editor Settings
+  "editor.minimap.enabled": false,
+  "editor.minimap.autohide": "mouseover",
+  "diffEditor.hideUnchangedRegions.minimumLineCount": 2,
+
+  // Remote Settings
+  "remote.portsAttributes": {
+    "5500": {
+      "protocol": "https",
+    },
+  },
+
+  // General Editor Settings
+  "editor.glyphMargin": true,
+  "editor.padding.bottom": 20,
+  "editor.stickyScroll.enabled": false,
+  "editor.wordWrapColumn": 80, // Wrap at 80 characters (adjust as needed)
+  "editor.rulers": [80], // Show vertical ruler at 80 characters for guidance
+  "editor.wordWrap": "on",
+  "editor.cursorSurroundingLines": 4,
+
+  // errorLens
+  "errorLens.enabledDiagnosticLevels": ["warning", "info", "error"],
+  "errorLens.enabled": true,
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.fontStyleItalic": true,
+
+  // Workbench Settings
+  "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.settings.applyToAllProfiles": ["editor.cursorSurroundingLines"],
+
+  // Breadcrumbs and Menu Bar Settings
+  "breadcrumbs.enabled": false,
+
+  // Extensions Settings
+  "extensions.ignoreRecommendations": true,
+
+  // Vim Extension Settings
+  "vim.disableExtension": true,
+  "vim.useSystemClipboard": true,
+  "vim.leader": " ", // Set leader key to <Space>
+  "vim.handleKeys": {
+    "<C-p>": false,
+    "<C-f>": false,
+    "<C-b>": false,
+    "<C-a>": false,
+    "<C-z>": false,
+  },
+
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  "editor.formatOnPaste": true,
+  "diffEditor.codeLens": true,
+  "diffEditor.ignoreTrimWhitespace": true,
+  "diffEditor.renderSideBySide": true,
+  "python.terminal.activateEnvironment": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveServer.settings.donotVerifyTags": true,
+  "workbench.sideBar.location": "right",
+  "files.autoSave": "onFocusChange",
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": true,
+    "typescriptreact": true,
+    "typescript": true,
+    "javascript": false,
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "editor.overtypeCursorStyle": "line",
+  "editor.lineNumbers": "relative",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "sqlite.setupDatabase": {},
+  "terminal.integrated.initialHint": false,
+  "chat.tips.enabled": false,
+  "github.copilot.nextEditSuggestions.eagerness": "high",
+  "claudeCode.preferredLocation": "panel",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
+  },
+  "chat.viewSessions.orientation": "stacked",
+  "chat.tools.urls.autoApprove": {
+    "https://code.visualstudio.com": true,
+    "https://github.com/microsoft/vscode/wiki/*": true,
+    "https://docs.livekit.io": true,
+    "https://docs.livekit.io/components/react": true,
+    "https://docs.livekit.io/components": true,
+    "https://*.livekit.io": true,
+  },
+  "workbench.browser.openLocalhostLinks": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+  },
+  "github.copilot.chat.agentDebugLog.fileLogging.enabled": true,
+}

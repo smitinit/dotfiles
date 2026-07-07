@@ -1,4 +1,33 @@
+# Git internals
+.git/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Runtime
 .cache/
 .local/
-node_modules/
+
+# Histories
+.bash_history
+.python_history
+.node_repl_history
+.viminfo
+.wget-hsts
+
+# Secrets
+*.pem
+*.key
+*.crt
+
+# SSH
+.ssh/id_*
+.ssh/*.pub
+
+# Editors
+.vscode/
+.idea/
+
+# Logs
 *.log
