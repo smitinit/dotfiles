@@ -5,29 +5,13 @@
 .DS_Store
 Thumbs.db
 
-# Runtime
-.cache/
-.local/
-
-# Histories
-.bash_history
-.python_history
-.node_repl_history
-.viminfo
-.wget-hsts
-
 # Secrets
 *.pem
 *.key
 *.crt
-
-# SSH
-.ssh/id_*
-.ssh/*.pub
-
-# Editors
-.vscode/
-.idea/
+*.p12
+.env
+.env.*
 
 # Logs
 *.log
